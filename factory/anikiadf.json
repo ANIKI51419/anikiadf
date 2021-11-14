@@ -1,0 +1,9 @@
+{
+	"name": "anikiadf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0344b6b-d789-4a2d-9dd1-bda9761b5bd5",
+		"tenantId": "78aac226-2f03-4b4d-9037-b46d56c55210"
+	}
+}
