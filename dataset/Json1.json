@@ -1,0 +1,46 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "azureml"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"process_name": {
+					"type": "string"
+				},
+				"node_id": {
+					"type": "string"
+				},
+				"pid_in_container": {
+					"type": "integer"
+				},
+				"private_ip": {
+					"type": "string"
+				},
+				"log": {
+					"type": "string"
+				},
+				"timestamp": {
+					"type": "string"
+				},
+				"status": {
+					"type": "string"
+				},
+				"Exception": {
+					"type": "null"
+				}
+			}
+		}
+	}
+}
